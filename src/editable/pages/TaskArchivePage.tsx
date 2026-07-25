@@ -79,8 +79,8 @@ const taskGrid: Record<TaskKey, string> = {
   profile: 'grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4',
 }
 
-// Shared premium surface: hairline border, soft radius, smooth lift on hover.
-const cardBase = 'group block rounded-[var(--tk-radius)] border border-[var(--tk-line)] bg-[var(--tk-surface)] transition duration-500 hover:-translate-y-1.5 hover:shadow-[0_32px_72px_rgba(15,23,42,0.14)]'
+// Shared luxury surface: hairline border, lift with dark-mode-aware shadow.
+const cardBase = 'group block rounded-[var(--tk-radius)] border border-[var(--tk-line)] bg-[var(--tk-surface)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_24px_64px_rgba(0,0,0,0.65)]'
 
 export async function EditableTaskArchiveRoute({
   task,
